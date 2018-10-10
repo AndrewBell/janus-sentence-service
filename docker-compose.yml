@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  sentence-service:
+    image: janus/sentence-service
+    ports:
+      - "3000:3000"
