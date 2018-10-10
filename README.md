@@ -30,6 +30,14 @@ An Example REST API built with Express
 
 `curl localhost:3000`
 
+### Running On Local Docker
+
+`docker build -t janus/sentence-service .`
+
+`docker run -it -p 3000:3000 janus/sentence-service`
+
+`curl localhost:3000`
+
 ## Contributing
 
 If you would like to make an update to this project, fork and open a pull request. If you have any questions, please feel free to reach out (contact info below)
